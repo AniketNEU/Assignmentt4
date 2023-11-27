@@ -8,6 +8,6 @@ package MoonRoverStatePattern;
  *
  * @author anikettiwari
  */
-public class RestState {
+public class Rover {
     
 }

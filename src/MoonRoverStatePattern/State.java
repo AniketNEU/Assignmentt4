@@ -9,5 +9,11 @@ package MoonRoverStatePattern;
  * @author anikettiwari
  */
 public interface State {
-   
+    String getName();
+    String getSubState();
+    boolean pressRightPedal(int numOfTimesPressed);
+    boolean pressRightPedalForTime(int numOfSecondsPressed);
+    boolean pressLeftPedal(int numOfTimesPressed);
+    boolean pressLeftPedalForTime(int numOfSecondsPressed);
 }
+
